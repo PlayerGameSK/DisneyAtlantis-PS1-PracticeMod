@@ -33,8 +33,19 @@ For an emulator like DuckStation, all you need to do is open the resulting .bin 
 
 However if you wish to play it on console, you'll need either a PS2 with [MechaPwn](https://github.com/MechaResearch/MechaPwn) or a modchipped PS1 / PS2, and **you MUST burn the game onto a CD-R disc NOT a DVD of any kind!**
 
-As for burning the disc, I'd recommend making a copy of the original .cue file as well as the Track 2 .bin file (if there is one), then renaming the modded .bin file to the exact same filename as the original and putting all the files together into one folder. Otherwise, you can either edit the .cue file using something like Notepad++ to adjust the filename(s), or generate an entirely new one, but I won't get into that here.
+As for burning the disc, I'd recommend making a copy of the original .cue file as well as the Track 2 .bin file (if there is one), then renaming the modded .bin file to the exact same filename as the original and putting all the files together into one folder. Otherwise, you can either edit the .cue file using something like Notepad++ to adjust the filename(s), or generate an entirely new one, but I won't get into that here. You can also use Composer's Modding Utility to generate both a .bin and a .cue file, though this approach is only really worth it if you know a thing or two about coding and/or are planning to mess with the actual mod's code.
 
+
+## Compiling & Building
+If you wish to compile the mod yourself, here's what you'll have to do:
+1. Compiling this mod requires the [C-Game-Modding-Utility by C0mposer](https://github.com/C0mposer/C-Game-Modding-Utility).
+2. Once you have downloaded and extracted it, go into its "projects" folder and create a new folder with a name of your choosing, then download / clone this repository into it.
+3. Open the Modding Utility then double-click the project's name (same as the folder you created earlier) to open it.
+4. Click "Choose PS1 .bin file" then select the .bin file of your original unmodified NTSC-U ROM of Disney's Atlantis (if it has multiple tracks, select Track 1).
+5. The Utility will then ask you to select a folder where you wish to extract the game files, this can be pretty much wherever works best for you.
+6. **Go into the "Compile" tab then change the "Optimization Level" to O1** (this is necessary, otherwise the mod won't compile) then click "Compile Mod".
+7. From here, you're free to open the project in your desired Text Editor, inject the mod into a selection of emulators (as long as there's one running the vanilla game currently), as well as build a patched .bin/.cue ROM of the modded game (as ModdedGame.bin/ModdedGame.cue in the project's folder).
+8. If you've made any changes to the code and wish to generate an XDelta patch, I'd recommend using [Delta Patcher](https://www.romhacking.net/utilities/704) - just click the double arrow icon in the bottom-right, then select the unmodified .bin ROM file of the game as the "Original file" (once again, select Track 1 if you have multiple), then select "ModdedGame.bin" from your project's folder after generating it using the Modding Utility as the "Modified file", select where to save the Xdelta patch, optionally add a Description then click "Create patch" and you're all set! 
 
 ## Tools Used In Creation:
 - [C-Game-Modding-Utility by C0mposer](https://github.com/C0mposer/C-Game-Modding-Utility) for the automation of compiling C code to MIPS object code targeted for the PS1, and hot-reloading the mod into emulators like Bizhawk or DuckStation for quick testing, as well as building a console-ready BIN/CUE with the mod files injected correctly.
