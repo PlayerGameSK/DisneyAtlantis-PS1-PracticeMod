@@ -1,0 +1,25 @@
+/* Symbols declared in C code with "in_game" */
+ptr_player = 0x80096868;
+barrel_position = 0x800B3EDC;
+button_press = 0x800969D8;
+unlocked_levels = 0x80098F3C;
+load_next = 0x800AAE8C;
+game_state = 0x80095C16;
+game_complete = 0x80098F3E;
+selected_level = 0x800AAEE8;
+player_health = 0x80096762;
+player_lives = 0x80096760;
+truck_gas = 0x80096766;
+leviathan_health = 0x80096772;
+current_level = 0x80098F58;
+next_level = 0x800956AE;
+outer_state = 0x80098F74;
+OuterAtlantis_name1 = 0x8009DAC8;
+OuterAtlantis_name2 = 0x8009DACC;
+Collectibles1 = 0x80098F5C;
+Collectibles2 = 0x80098F60;
+Collectibles3 = 0x80098F64;
+Collectibles4 = 0x80098F68;
+GreenCrystals_Collected = 0x80098F40;
+GreenCrystals_Amount = 0x8009676C;
+InGameFunction = 0x80005678;

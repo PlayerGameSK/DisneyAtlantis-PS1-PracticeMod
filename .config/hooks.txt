@@ -1,0 +1,2 @@
+hooks:
+[('AutoHook', '0x8006c324', '0x5cb24', ['main_hook.s'], '-0xF800')]
