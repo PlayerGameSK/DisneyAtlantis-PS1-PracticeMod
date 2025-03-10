@@ -1,6 +1,6 @@
 
 # Disney's Atlantis: The Lost Empire (PS1) Practice Mod
-This mod for the PS1 version of Disney's Atlantis: The Lost Empire adds various features to aid with speedrun practice. 
+This mod for the PS1 version of Disney's Atlantis: The Lost Empire (NTSC-U) adds various features to aid with speedrun practice. 
 Made primarily for the purpose of convenient and accurate (in terms of lag and loads) speedrun practice on PS2, as that is the main platform used for speedruns of the game, but should work on any other platform capable of running PS1 games including emulators.
 
 ## Functionality:
