@@ -1,0 +1,104 @@
+
+Discarded input sections
+
+ .reginfo       0x0000000000000000       0x18 main_hook.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 main_hook.o
+ .pdr           0x0000000000000000        0x0 main_hook.o
+ .gnu.attributes
+                0x0000000000000000       0x10 main_hook.o
+ .reginfo       0x0000000000000000       0x18 main.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 main.o
+ .pdr           0x0000000000000000       0x40 main.o
+ .comment       0x0000000000000000       0x13 main.o
+ .gnu.attributes
+                0x0000000000000000       0x10 main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+Header           0x000000008000b0b8 0x0000000000000800
+AutoHook         0x000000008006c324 0x0000000000100000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD main_hook.o
+LOAD main.o
+LOAD d:/mikey/pcsx-redux/c c++ game modding utility/prereq/ps1mips/bin/../lib/gcc/mipsel-none-elf/12.1.0\libgcc.a
+LOAD d:/mikey/pcsx-redux/c c++ game modding utility/prereq/ps1mips/bin/../lib/gcc/mipsel-none-elf/12.1.0\libgcc.a
+LOAD ../../../.config/symbols/symbols.txt
+                0x0000000080001234                game_symbol = 0x80001234
+LOAD ../../../.config/symbols/function_symbols.txt
+                0x0000000080005678                GameFunction = 0x80005678
+LOAD ../../../.config/symbols/auto_symbols.txt
+                0x0000000080096868                ptr_player = 0x80096868
+                0x00000000800b3edc                barrel_position = 0x800b3edc
+                0x00000000800969d8                button_press = 0x800969d8
+                0x0000000080098f3c                unlocked_levels = 0x80098f3c
+                0x00000000800aae8c                load_next = 0x800aae8c
+                0x0000000080095c16                game_state = 0x80095c16
+                0x0000000080098f3e                game_complete = 0x80098f3e
+                0x00000000800aaee8                selected_level = 0x800aaee8
+                0x0000000080096762                player_health = 0x80096762
+                0x0000000080096760                player_lives = 0x80096760
+                0x0000000080096766                truck_gas = 0x80096766
+                0x0000000080096772                leviathan_health = 0x80096772
+                0x0000000080098f58                current_level = 0x80098f58
+                0x00000000800956ae                next_level = 0x800956ae
+                0x0000000080098f74                outer_state = 0x80098f74
+                0x000000008009dac8                OuterAtlantis_name1 = 0x8009dac8
+                0x000000008009dacc                OuterAtlantis_name2 = 0x8009dacc
+                0x0000000080098f5c                Collectibles1 = 0x80098f5c
+                0x0000000080098f60                Collectibles2 = 0x80098f60
+                0x0000000080098f64                Collectibles3 = 0x80098f64
+                0x0000000080098f68                Collectibles4 = 0x80098f68
+                0x0000000080098f40                GreenCrystals_Collected = 0x80098f40
+                0x000000008009676c                GreenCrystals_Amount = 0x8009676c
+                0x0000000080005678                InGameFunction = 0x80005678
+
+.AutoHook       0x000000008006c324        0x4
+ main_hook.o(.text)
+ .text          0x000000008006c324        0x4 main_hook.o
+ main_hook.o(.rodata)
+ main_hook.o(.rodata*)
+ main_hook.o(.data)
+ .data          0x000000008006c328        0x0 main_hook.o
+ main_hook.o(.bss)
+ .bss           0x000000008006c328        0x0 main_hook.o
+
+.Header         0x000000008000b0b8      0x71c
+ main.o(.text)
+ .text          0x000000008000b0b8      0x6e8 main.o
+                0x000000008000b0b8                MemCpy
+                0x000000008000b0e4                CustomFunction
+ main.o(.rodata)
+ main.o(.rodata*)
+ main.o(.data)
+ .data          0x000000008000b7a0        0x0 main.o
+ main.o(.bss)
+ .bss           0x000000008000b7a0       0x34 main.o
+                0x000000008000b7a0                savestate_free_space
+                0x000000008000b7d0                level_now
+                0x000000008000b7d2                infiniteGas
+                0x000000008000b7d3                infiniteHealth
+ main.o(.sdata)
+ main.o(.sbss)
+ main.o(.scommon)
+ main.o(.main.o.*)
+ *(.text)
+ *(.branch_lt)
+
+/DISCARD/
+ *(.comment)
+ *(.pdr)
+ *(.mdebug)
+ *(.reginfo)
+ *(.MIPS.abiflags)
+ *(.eh_frame)
+ *(.gnu.attributes)
+OUTPUT(../elf_files/MyMod.elf elf32-littlemips)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 main.o

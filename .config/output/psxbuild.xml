@@ -1,0 +1,17 @@
+<iso_project image_name="mkpsxiso.bin" cue_sheet="mkpsxiso.cue">
+    <track type="data">
+        <identifiers system="PLAYSTATION" application="PLAYSTATION" creation_date="2001050609365100+36"/>
+        <license file="ExtractedBIN/license_data.dat"/>
+        <default_attributes gmt_offs="36" xa_attrib="56" xa_perm="1365" xa_gid="0" xa_uid="0"/>
+        <directory_tree>
+            <file name="SYSTEM.CNF" source="ExtractedBIN/SYSTEM.CNF" type="data"/>
+            <file name="SCUS_946.36" source="ExtractedBIN/SCUS_946.36" type="data"/>
+            <file name="OVERLAY.BIN" source="ExtractedBIN/OVERLAY.BIN" type="data"/>
+            <file name="GFXFILE.BIN" source="ExtractedBIN/GFXFILE.BIN" type="data"/>
+            <file name="XADATA.STR" source="ExtractedBIN/XADATA.STR" type="mixed"/>
+            <file name="3MN_BLNK.DAT" trackid="02" type="da"/>
+            <dummy sectors="150"/>
+        </directory_tree>
+    </track>
+    <track type="audio" trackid="02" source="ExtractedBIN/3MN_BLNK.WAV"/>
+</iso_project>
