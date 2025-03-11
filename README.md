@@ -6,16 +6,16 @@ Made primarily for the purpose of convenient and accurate (in terms of lag and l
 ## Functionality:
 1. Save your Character's + Ulysses barrel's Current Position (**L2 + Triangle**) *[does not work for the level "Truck Escape" due to its nature]*
 2. Load your Character's + Ulysses barrel's Current Position (**R2 + Triangle**) *[the Ulysses barrel's position will only reload if it hasn't been fully pushed in front of the pipe, if so, you'll first have to restart the level using L3 + R3 and then reload your position]*
-3. Go from the Title Screen to the Level Select (**L1 + L2 + R1 + R2**) *[acts as finishing a level, but you can just skip the save screen as normal, useful if there's no Memory Card present or Save Game to load]*
+3. Go from the Title Screen to the Level Select (**L1 + L2 + R1 + R2**) *[acts as finishing a level, but you can just skip the Save Screen as normal, useful to skip having to Start a New Game if there's no Memory Card present or Save Game to load]*
 4. Unlock All Levels (**L3 + R3 on the Level Select screen**)
 5. Reset the state of All Collectibles (**Select button on the Level Select screen**)
 6. Start New Game from the Level Select (**Hold Square while pressing X on Whitmore's Mansion**)
 7. Infinite Health / Lives toggle (During Gameplay: **R3 + L2 to Enable / R3 + R2 to Disable**)
-8. Restart the Current Level (**L3 + R3 during Gameplay**)
-9. Return to Level Select (**Triangle + L3 + R2**, counts as finishing the level so it brings you to the Save Screen first)
-10. Stage Select for Outer Atlantis (Press **Square / Circle on it in the Level Select** to pick between its pre-Inner or post-Inner state)
+8. Restart the Current Level (During Gameplay: **L3 + R3**)
+9. Return to Level Select (During Gameplay: **Triangle + L3 + R2**) *[counts as finishing the level, so it brings you to the Save Screen first]*
+10. Stage Select for Outer Atlantis (Press **Square / Circle on it in the Level Select** to pick between its pre-Inner or post-Inner Atlantis state)
 11. Insta-Kill Leviathan (**Press Circle** at any time during the boss fight)
-12. Infinite Gas in Truck Escape toggle (While in Truck Escape: **Select to Enable / Circle to Disable, also works while Paused**)
+12. Infinite Gas in Truck Escape toggle (While in Truck Escape: **Select to Enable / Circle to Disable,** also works while Paused)
 
 ## Installation
 ### Requirements
