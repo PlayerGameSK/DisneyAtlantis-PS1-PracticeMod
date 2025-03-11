@@ -6,7 +6,7 @@ Made primarily for the purpose of convenient and accurate (in terms of lag and l
 ## Functionality:
 1. Save your Character's + Ulysses barrel's Current Position (**L2 + Triangle**) *[does not work for the level "Truck Escape" due to its nature]*
 2. Load your Character's + Ulysses barrel's Current Position (**R2 + Triangle**) *[the Ulysses barrel's position will only reload if it hasn't been fully pushed in front of the pipe, if so, you'll first have to restart the level using L3 + R3 and then reload your position]*
-3. Go from the Title Screen to the Level Select (**L1 + L2 + R1 + R2**, acts as finishing a level but you can just skip the save screen as normal, useful if there's no Memory Card present or Save Game to load)
+3. Go from the Title Screen to the Level Select (**L1 + L2 + R1 + R2**) *[acts as finishing a level, but you can just skip the save screen as normal, useful if there's no Memory Card present or Save Game to load]*
 4. Unlock All Levels (**L3 + R3 on the Level Select screen**)
 5. Reset the state of All Collectibles (**Select button on the Level Select screen**)
 6. Start New Game from the Level Select (**Hold Square while pressing X on Whitmore's Mansion**)
