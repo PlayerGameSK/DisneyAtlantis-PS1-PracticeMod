@@ -33,7 +33,7 @@ For an emulator like DuckStation, all you need to do is open the resulting .bin 
 
 However if you wish to play it on console, you'll need either a PS2 with [MechaPwn](https://github.com/MechaResearch/MechaPwn) or a modchipped PS1 / PS2, and **you MUST burn the game onto a CD-R disc NOT a DVD of any kind!**
 
-As for burning the disc, I'd recommend making a copy of the original .cue file as well as the Track 2 .bin file (if there is one), then renaming the modded .bin file to the exact same filename as the original and putting all the files together into one folder. Otherwise, you can either edit the .cue file using something like Notepad++ to adjust the filename(s), or generate an entirely new one, but I won't get into that here. You can also use Composer's Modding Utility to generate both a .bin and a .cue file, though this approach is only really worth it if you know a thing or two about coding and/or are planning to mess with the actual mod's code.
+As for burning the disc, I'd recommend making a copy of the original .cue file as well as the Track 2 .bin file (if there is one), then renaming the modded .bin file to the exact same filename as the original and putting all the files together into one folder. Otherwise, you can either edit the .cue file using something like Notepad++ to adjust the filename(s), or generate an entirely new one, using [this website](https://www.duckstation.org/cue-maker). You can also use Composer's Modding Utility to generate both a .bin and a .cue file, though this approach is only really worth it if you know a thing or two about coding and/or are planning to mess with the actual mod's code.
 
 
 ## Compiling & Building
