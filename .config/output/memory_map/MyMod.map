@@ -68,21 +68,21 @@ LOAD ../../../.config/symbols/auto_symbols.txt
  main_hook.o(.bss)
  .bss           0x000000008006c328        0x0 main_hook.o
 
-.Header         0x000000008000b0b8      0x71c
+.Header         0x000000008000b0b8      0x768
  main.o(.text)
- .text          0x000000008000b0b8      0x6e8 main.o
+ .text          0x000000008000b0b8      0x734 main.o
                 0x000000008000b0b8                MemCpy
                 0x000000008000b0e4                CustomFunction
  main.o(.rodata)
  main.o(.rodata*)
  main.o(.data)
- .data          0x000000008000b7a0        0x0 main.o
+ .data          0x000000008000b7ec        0x0 main.o
  main.o(.bss)
- .bss           0x000000008000b7a0       0x34 main.o
-                0x000000008000b7a0                savestate_free_space
-                0x000000008000b7d0                level_now
-                0x000000008000b7d2                infiniteGas
-                0x000000008000b7d3                infiniteHealth
+ .bss           0x000000008000b7ec       0x34 main.o
+                0x000000008000b7ec                savestate_free_space
+                0x000000008000b81c                level_now
+                0x000000008000b81e                infiniteGas
+                0x000000008000b81f                infiniteHealth
  main.o(.sdata)
  main.o(.sbss)
  main.o(.scommon)

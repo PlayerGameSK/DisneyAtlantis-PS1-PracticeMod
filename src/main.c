@@ -132,6 +132,16 @@ void CustomFunction(void)
         {
             game_state = RELOAD;
         }
+        if(button_press == 0x0306)
+        {
+            game_state = RELOAD;
+            Collectibles1 = 0x00000000;
+            Collectibles2 = 0x00000000;
+            Collectibles3 = 0x00000000;
+            Collectibles4 = 0x00000000;
+            GreenCrystals_Collected = 0x00000000;
+            GreenCrystals_Amount = 0x0;
+        }
     }
 
     // Return to Level Select (Triangle + L3 + R2)
