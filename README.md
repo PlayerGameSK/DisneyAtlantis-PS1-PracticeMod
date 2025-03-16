@@ -4,6 +4,7 @@ This mod for the PS1 version of Disney's Atlantis: The Lost Empire (NTSC-U) adds
 Made primarily for the purpose of convenient and accurate (in terms of lag and loads) speedrun practice on PS2, as that is the main platform used for speedruns of the game, but should work on any other platform capable of running PS1 games including emulators.
 
 ## Functionality:
+### v1.0
 1. Save your Character's + Ulysses barrel's Current Position (**L2 + Triangle**) *[does not work for the level "Truck Escape" due to its nature]*
 2. Load your Character's + Ulysses barrel's Current Position (**R2 + Triangle**) *[the Ulysses barrel's position will only reload if it hasn't been fully pushed in front of the pipe, if so, you'll first have to restart the level using L3 + R3 and then reload your position]*
 3. Go from the Title Screen to the Level Select (**L1 + L2 + R1 + R2**) *[acts as finishing a level, but you can just skip the Save Screen as normal, useful to skip having to Start a New Game if there's no Memory Card present or Save Game to load]*
@@ -11,7 +12,7 @@ Made primarily for the purpose of convenient and accurate (in terms of lag and l
 5. Reset the state of All Collectibles (**Select button on the Level Select screen**)
 6. Start New Game from the Level Select (**Hold Square while pressing X on Whitmore's Mansion**)
 7. Infinite Health / Lives toggle (During Gameplay: **R3 + L2 to Enable / R3 + R2 to Disable**)
-8. Restart the Current Level (During Gameplay: **L3 + R3**)
+8. Restart the Current Level (During Gameplay: **L3 + R3** | NEW in v1.1: **Use while holding down L2 + R2 to also Reset All Collectibles**)
 9. Return to Level Select (During Gameplay: **Triangle + L3 + R2**) *[counts as finishing the level, so it brings you to the Save Screen first]*
 10. Stage Select for Outer Atlantis (Press **Square / Circle on it in the Level Select** to pick between its pre-Inner or post-Inner Atlantis state)
 11. Insta-Kill Leviathan (**Press Circle** at any time during the boss fight)
@@ -51,7 +52,8 @@ If you wish to compile the mod yourself, here's what you'll have to do:
 - [C-Game-Modding-Utility by C0mposer](https://github.com/C0mposer/C-Game-Modding-Utility) for the automation of compiling C code to MIPS object code targeted for the PS1, and hot-reloading the mod into emulators like Bizhawk or DuckStation for quick testing, as well as building a console-ready BIN/CUE with the mod files injected correctly.
 - [Bizhawk](https://github.com/TASEmulators/BizHawk) for searching/poking and experimenting with PS1 RAM values easily.
 - [DuckStation](https://duckstation.org) for additional testing.
-- [Visual Studio Code](https://code.visualstudio.com) for writing the actual code.
+- [Ghidra](https://github.com/NationalSecurityAgency/ghidra) in combination with the [PSX Executable Loader Plugin](https://github.com/lab313ru/ghidra_psx_ldr) for analyzing and "reverse engineering" functions in the game.
+- [Visual Studio Code](https://code.visualstudio.com) for writing the actual code of the mod.
 
 ## Contact
 If you need any help building this project, or are looking into making your own PS1 game mod in a similar fashion, feel free to reach out to me on Discord: **PlayerGameSK**
