@@ -1,5 +1,7 @@
 
 # Disney's Atlantis: The Lost Empire (PS1) Practice Mod
+[**FOR PS2 USERS: The Practice ROM is currently NOT compatible with the "official" Backwards Compatibility layer on PS2**, so in the meantime, if **you want to be able to use most of its tools** - except for things like manual position saving/loading - **while playing off of a disc**, I'd recommend taking a look at the "**DKWDRV on PS2**" **option** in the **guide [LINKED HERE](https://www.speedrun.com/atle/resources/1ee10)**, although beware that **this method requires a 750XX model PS2 or newer**, meaning that **it won't work** on the **original 70k Slims** or **any Fat models**, on which you'd have to resort to the "obsolete" POPStarter method from the same guide off of something like USB/HDD/SMB instead!]
+
 This mod for the PS1 version of Disney's Atlantis: The Lost Empire (NTSC-U) adds various features to aid with speedrun practice. 
 Made primarily for the purpose of convenient and accurate (in terms of lag and loads) speedrun practice on PS2, as that is the main platform used for speedruns of the game, but should work on any other platform capable of running PS1 games including emulators.
 
